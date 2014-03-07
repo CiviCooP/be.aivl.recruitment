@@ -1,0 +1,2919 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CustomData>
+  <CustomGroups>
+    <CustomGroup>
+      <name>Recruitment</name>
+      <title>Recruitment</title>
+      <extends>Contact</extends>
+      <style>Inline</style>
+      <collapse_display>1</collapse_display>
+      <help_pre></help_pre>
+      <help_post></help_post>
+      <weight>6</weight>
+      <is_active>1</is_active>
+      <table_name>civicrm_value_recruitment_6</table_name>
+      <is_multiple>0</is_multiple>
+      <collapse_adv_display>0</collapse_adv_display>
+      <created_date>2014-03-03 12:36:58</created_date>
+      <is_reserved>0</is_reserved>
+    </CustomGroup>
+  </CustomGroups>
+  <CustomFields>
+    <CustomField>
+      <name>Recruitment</name>
+      <label>Recruitment</label>
+      <data_type>String</data_type>
+      <html_type>Select</html_type>
+      <is_required>0</is_required>
+      <is_searchable>0</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>1</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>recruitment_12</column_name>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+      <custom_group_name>Recruitment</custom_group_name>
+    </CustomField>
+  </CustomFields>
+  <OptionGroups>
+    <OptionGroup>
+      <name>recruitment_20140307095917</name>
+      <title>Recruitment</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+    </OptionGroup>
+  </OptionGroups>
+  <OptionValues>
+    <OptionValue>
+      <label>0001 - Nieuw lid BB promoteam</label>
+      <value>0001</value>
+      <name>0001 - Nieuw lid BB promoteam</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>1</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0002 - Oever vzw</label>
+      <value>0002</value>
+      <name>0002 - Oever vzw</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>2</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0003 - Nieuw lid actie Bodyshop</label>
+      <value>0003</value>
+      <name>0003 - Nieuw lid actie Bodyshop</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>3</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0004 - Lidmaatschap in PO</label>
+      <value>0004</value>
+      <name>0004 - Lidmaatschap in PO</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>4</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0007 - Nieuwe spaarder Triodos</label>
+      <value>0007</value>
+      <name>0007 - Nieuwe spaarder Triodos</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>5</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0008 - Via telefoonaanvraag</label>
+      <value>0008</value>
+      <name>0008 - Via telefoonaanvraag</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>6</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0009 - Via winkelbezoek</label>
+      <value>0009</value>
+      <name>0009 - Via winkelbezoek</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>7</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0010 - Via lokale groep</label>
+      <value>0010</value>
+      <name>0010 - Via lokale groep</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>8</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0012 - Actieve leden 626</label>
+      <value>0012</value>
+      <name>0012 - Actieve leden 626</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>9</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0013 - NL regio Gent</label>
+      <value>0013</value>
+      <name>0013 - NL regio Gent</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>10</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0014 - SA medewerkers 628</label>
+      <value>0014</value>
+      <name>0014 - SA medewerkers 628</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>11</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0015 - Ex SA medewerkers 628</label>
+      <value>0015</value>
+      <name>0015 - Ex SA medewerkers 628</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>12</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0016 - Symphatisant lid 630</label>
+      <value>0016</value>
+      <name>0016 - Symphatisant lid 630</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>13</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0017 -</label>
+      <value>0017</value>
+      <name>0017 -</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>14</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0018 - Adressenslag intern 732</label>
+      <value>0018</value>
+      <name>0018 - Adressenslag intern 732</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>15</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0019 - SA medewerker 733</label>
+      <value>0019</value>
+      <name>0019 - SA medewerker 733</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>16</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0020 - Actiekrant DON 734</label>
+      <value>0020</value>
+      <name>0020 - Actiekrant DON 734</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>17</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0021 - 21 NL 680 LG SK DON</label>
+      <value>0021</value>
+      <name>0021 - 21 NL 680 LG SK DON</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>18</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0022 - 22 NL 681 Spoedactiemedewerker</label>
+      <value>0022</value>
+      <name>0022 - 22 NL 681 Spoedactiemedewerker</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>19</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0023 - NL Infobrochure</label>
+      <value>0023</value>
+      <name>0023 - NL Infobrochure</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>20</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0024 - Sympa 513</label>
+      <value>0024</value>
+      <name>0024 - Sympa 513</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>21</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0025 - Sympa 502</label>
+      <value>0025</value>
+      <name>0025 - Sympa 502</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>22</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0026 - Sympa 500</label>
+      <value>0026</value>
+      <name>0026 - Sympa 500</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>23</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0027 - Sympa 507</label>
+      <value>0027</value>
+      <name>0027 - Sympa 507</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>24</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0028 - Sympa 504</label>
+      <value>0028</value>
+      <name>0028 - Sympa 504</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>25</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0029 - Sympa 500</label>
+      <value>0029</value>
+      <name>0029 - Sympa 500</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>26</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0030 - Sympa 501</label>
+      <value>0030</value>
+      <name>0030 - Sympa 501</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>27</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0031 - Sympa 502</label>
+      <value>0031</value>
+      <name>0031 - Sympa 502</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>28</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0032 - Sympa 504</label>
+      <value>0032</value>
+      <name>0032 - Sympa 504</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>29</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0034 - Sympa 513</label>
+      <value>0034</value>
+      <name>0034 - Sympa 513</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>30</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0035 - Sympa 507</label>
+      <value>0035</value>
+      <name>0035 - Sympa 507</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>31</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0036 - AIA nog niet leden</label>
+      <value>0036</value>
+      <name>0036 - AIA nog niet leden</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>32</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0037 - SPAK nog niet leden</label>
+      <value>0037</value>
+      <name>0037 - SPAK nog niet leden</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>33</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0038 - Sympa's tot 08-05-1995</label>
+      <value>0038</value>
+      <name>0038 - Sympa's tot 08-05-1995</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>34</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0039 - Sympa's na 08-05-1995</label>
+      <value>0039</value>
+      <name>0039 - Sympa's na 08-05-1995</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>35</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0040 - LG's COM AIA NL</label>
+      <value>0040</value>
+      <name>0040 - LG's COM AIA NL</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>36</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0041 - Kindercampagne sympa 500-513</label>
+      <value>0041</value>
+      <name>0041 - Kindercampagne sympa 500-513</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>37</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0042 - Kindercampagne nieuwe sympa's</label>
+      <value>0042</value>
+      <name>0042 - Kindercampagne nieuwe sympa's</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>38</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0043 - NL 1007 43 sympa na 01-11-1995</label>
+      <value>0043</value>
+      <name>0043 - NL 1007 43 sympa na 01-11-1995</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>39</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0044 - NL nieuwe sympa na 01-02-1996</label>
+      <value>0044</value>
+      <name>0044 - NL nieuwe sympa na 01-02-1996</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>40</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0045 - NL sympa's tot 12-02-1996</label>
+      <value>0045</value>
+      <name>0045 - NL sympa's tot 12-02-1996</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>41</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0046 - NL sympa 521 petitie</label>
+      <value>0046</value>
+      <name>0046 - NL sympa 521 petitie</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>42</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0047 - 1020 47 Nieuw lid sympa</label>
+      <value>0047</value>
+      <name>0047 - 1020 47 Nieuw lid sympa</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>43</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0048 - 1021 48 Nieuw lid sympa</label>
+      <value>0048</value>
+      <name>0048 - 1021 48 Nieuw lid sympa</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>44</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0049 - 1022 49 Nieuw lid sympa</label>
+      <value>0049</value>
+      <name>0049 - 1022 49 Nieuw lid sympa</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>45</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0050 - Nieuw lid actief</label>
+      <value>0050</value>
+      <name>0050 - Nieuw lid actief</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>46</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0053 - Nieuw lid rappel sympa</label>
+      <value>0053</value>
+      <name>0053 - Nieuw lid rappel sympa</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>47</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0054 - Nieuw lid actiekrant</label>
+      <value>0054</value>
+      <name>0054 - Nieuw lid actiekrant</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>48</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0055 - NL sympa 501</label>
+      <value>0055</value>
+      <name>0055 - NL sympa 501</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>49</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0057 - NL sympa niet 501 513</label>
+      <value>0057</value>
+      <name>0057 - NL sympa niet 501 513</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>50</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0058 - Nieuw lid infobrief</label>
+      <value>0058</value>
+      <name>0058 - Nieuw lid infobrief</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>51</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0059 - S 501 RAP 11 96 STOP</label>
+      <value>0059</value>
+      <name>0059 - S 501 RAP 11 96 STOP</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>52</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0060 - S 513 RAP NOV STOP</label>
+      <value>0060</value>
+      <name>0060 - S 513 RAP NOV STOP</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>53</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0061 - Rest S RAP NOV STOP</label>
+      <value>0061</value>
+      <name>0061 - Rest S RAP NOV STOP</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>54</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0062 - S 501 RAP NOV HELP AI</label>
+      <value>0062</value>
+      <name>0062 - S 501 RAP NOV HELP AI</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>55</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0063 - Nieuw lid AIA nat abo</label>
+      <value>0063</value>
+      <name>0063 - Nieuw lid AIA nat abo</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>56</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0064 - Nieuw lid AIA thuisschrijven</label>
+      <value>0064</value>
+      <name>0064 - Nieuw lid AIA thuisschrijven</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>57</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0065 - Nieuw lid SVZ deelnemer</label>
+      <value>0065</value>
+      <name>0065 - Nieuw lid SVZ deelnemer</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>58</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0066 - AIA 0-1 rappel 63-64</label>
+      <value>0066</value>
+      <name>0066 - AIA 0-1 rappel 63-64</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>59</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0067 - Actieven nog geen lid</label>
+      <value>0067</value>
+      <name>0067 - Actieven nog geen lid</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>60</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0068 - Nieuw lid SVZ lid don</label>
+      <value>0068</value>
+      <name>0068 - Nieuw lid SVZ lid don</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>61</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0069 - Nieuw lid sympa 509</label>
+      <value>0069</value>
+      <name>0069 - Nieuw lid sympa 509</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>62</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0070 - Rappel AIA abonnementen</label>
+      <value>0070</value>
+      <name>0070 - Rappel AIA abonnementen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>63</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0071 - Rappel nog niet leden</label>
+      <value>0071</value>
+      <name>0071 - Rappel nog niet leden</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>64</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0073 - Rappel sympa infobrochure</label>
+      <value>0073</value>
+      <name>0073 - Rappel sympa infobrochure</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>65</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0074 - Rappel sympa's overige</label>
+      <value>0074</value>
+      <name>0074 - Rappel sympa's overige</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>66</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0075 - Leden actiekrant 1997</label>
+      <value>0075</value>
+      <name>0075 - Leden actiekrant 1997</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>67</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0076 - Leden infobrochure 1997</label>
+      <value>0076</value>
+      <name>0076 - Leden infobrochure 1997</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>68</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0077 - AIA abonnees nationaal JAN 1998</label>
+      <value>0077</value>
+      <name>0077 - AIA abonnees nationaal JAN 1998</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>69</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0078 - AIA thuisschrijvers JAN 1998</label>
+      <value>0078</value>
+      <name>0078 - AIA thuisschrijvers JAN 1998</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>70</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0079 - AIA abonnees nationaal FEB 1998</label>
+      <value>0079</value>
+      <name>0079 - AIA abonnees nationaal FEB 1998</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>71</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0080 - AIA thuisschrijvers FEB 1998</label>
+      <value>0080</value>
+      <name>0080 - AIA thuisschrijvers FEB 1998</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>72</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0081 - Ledenambassadeurs via GZ</label>
+      <value>0081</value>
+      <name>0081 - Ledenambassadeurs via GZ</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>73</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0082 - Leden maken leden</label>
+      <value>0082</value>
+      <name>0082 - Leden maken leden</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>74</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0083 - Leden via schrijf-ze-vrijdag</label>
+      <value>0083</value>
+      <name>0083 - Leden via schrijf-ze-vrijdag</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>75</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0084 - Jongeren special</label>
+      <value>0084</value>
+      <name>0084 - Jongeren special</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>76</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0086 - Sympa's 501 oorlogsgeweld</label>
+      <value>0086</value>
+      <name>0086 - Sympa's 501 oorlogsgeweld</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>77</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0087 - Sympa's 500 oorlogsgeweld</label>
+      <value>0087</value>
+      <name>0087 - Sympa's 500 oorlogsgeweld</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>78</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0091 - Nieuw lid via post bus-aan-busactie</label>
+      <value>0091</value>
+      <name>0091 - Nieuw lid via post bus-aan-busactie</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>79</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0092 - Nieuw lid BOB</label>
+      <value>0092</value>
+      <name>0092 - Nieuw lid BOB</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>80</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0093 - Nieuw lid Eurythmics concert</label>
+      <value>0093</value>
+      <name>0093 - Nieuw lid Eurythmics concert</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>81</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0098 - Intern gebruik</label>
+      <value>0098</value>
+      <name>0098 - Intern gebruik</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>82</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0099 - Ruilabonnement</label>
+      <value>0099</value>
+      <name>0099 - Ruilabonnement</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>83</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0100 - Boekenbeurs</label>
+      <value>0100</value>
+      <name>0100 - Boekenbeurs</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>84</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0101 - Spontaan onbekend</label>
+      <value>0101</value>
+      <name>0101 - Spontaan onbekend</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>85</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0102 - Riodos Spaar-ze-vrij</label>
+      <value>0102</value>
+      <name>0102 - Riodos Spaar-ze-vrij</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>86</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0103 - Via AIBF</label>
+      <value>0103</value>
+      <name>0103 - Via AIBF</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>87</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0105 - Onbekend</label>
+      <value>0105</value>
+      <name>0105 - Onbekend</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>88</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0106 - BO via ledenrappel</label>
+      <value>0106</value>
+      <name>0106 - BO via ledenrappel</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>89</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0107 - Stop geweld tegen vrouwen campagne</label>
+      <value>0107</value>
+      <name>0107 - Stop geweld tegen vrouwen campagne</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>90</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0108 - Via actie of project</label>
+      <value>0108</value>
+      <name>0108 - Via actie of project</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>91</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0110 - Via lokale groep</label>
+      <value>0110</value>
+      <name>0110 - Via lokale groep</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>92</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0111 - Via regio Gent</label>
+      <value>0111</value>
+      <name>0111 - Via regio Gent</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>93</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0112 - Via Schrijf-ze-vrij</label>
+      <value>0112</value>
+      <name>0112 - Via Schrijf-ze-vrij</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>94</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0113 - Actieve medewerker</label>
+      <value>0113</value>
+      <name>0113 - Actieve medewerker</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>95</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0114 - Via productverkoop</label>
+      <value>0114</value>
+      <name>0114 - Via productverkoop</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>96</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0115 - Via Boomerang support</label>
+      <value>0115</value>
+      <name>0115 - Via Boomerang support</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>97</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0116 - Via telefoonaanvraag</label>
+      <value>0116</value>
+      <name>0116 - Via telefoonaanvraag</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>98</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0117 - Via winkelbezoek</label>
+      <value>0117</value>
+      <name>0117 - Via winkelbezoek</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>99</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0118 - Via briefwisseling</label>
+      <value>0118</value>
+      <name>0118 - Via briefwisseling</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>100</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0119 - Via e-mail</label>
+      <value>0119</value>
+      <name>0119 - Via e-mail</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>101</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0120 - Via He Youth</label>
+      <value>0120</value>
+      <name>0120 - Via He Youth</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>102</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0121 - Via infofolder 2002</label>
+      <value>0121</value>
+      <name>0121 - Via infofolder 2002</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>103</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0122 - Via website</label>
+      <value>0122</value>
+      <name>0122 - Via website</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>104</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0123 - Persoonlijk contact</label>
+      <value>0123</value>
+      <name>0123 - Persoonlijk contact</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>105</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0124 - Via infofolder</label>
+      <value>0124</value>
+      <name>0124 - Via infofolder</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>106</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0126 - Via regio Leuven</label>
+      <value>0126</value>
+      <name>0126 - Via regio Leuven</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>107</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0127 - Boekenbeurs 2000</label>
+      <value>0127</value>
+      <name>0127 - Boekenbeurs 2000</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>108</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0128 - Promoteam 2000</label>
+      <value>0128</value>
+      <name>0128 - Promoteam 2000</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>109</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0129 - Promoteam 2001</label>
+      <value>0129</value>
+      <name>0129 - Promoteam 2001</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>110</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0130 - Mailing FEB 2003</label>
+      <value>0130</value>
+      <name>0130 - Mailing FEB 2003</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>111</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0131 - Mailing JUN 2003</label>
+      <value>0131</value>
+      <name>0131 - Mailing JUN 2003</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>112</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0132 - Via facturatie</label>
+      <value>0132</value>
+      <name>0132 - Via facturatie</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>113</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0133 - Change for the future</label>
+      <value>0133</value>
+      <name>0133 - Change for the future</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>114</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0134 - Septembermailing 2003</label>
+      <value>0134</value>
+      <name>0134 - Septembermailing 2003</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>115</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0135 - Eindejaarsmailing 2003</label>
+      <value>0135</value>
+      <name>0135 - Eindejaarsmailing 2003</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>116</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0136 - Augustusmailing 2003</label>
+      <value>0136</value>
+      <name>0136 - Augustusmailing 2003</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>117</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0137 - Februarimailing 2004</label>
+      <value>0137</value>
+      <name>0137 - Februarimailing 2004</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>118</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0138 - Stop geweld tegen vrouwen</label>
+      <value>0138</value>
+      <name>0138 - Stop geweld tegen vrouwen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>119</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0139 - Maartmailing 2004</label>
+      <value>0139</value>
+      <name>0139 - Maartmailing 2004</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>120</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0141 - Meimailing 2004</label>
+      <value>0141</value>
+      <name>0141 - Meimailing 2004</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>121</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0142 - Junimailing 2004</label>
+      <value>0142</value>
+      <name>0142 - Junimailing 2004</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>122</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0143 - Septembermailing 2004</label>
+      <value>0143</value>
+      <name>0143 - Septembermailing 2004</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>123</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0144 - Oktobermailing 2004</label>
+      <value>0144</value>
+      <name>0144 - Oktobermailing 2004</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>124</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0146 - Ik wil helpen OLD</label>
+      <value>0146</value>
+      <name>0146 - Ik wil helpen OLD</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>125</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0148 - Decembermailing 2005</label>
+      <value>0148</value>
+      <name>0148 - Decembermailing 2005</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>126</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0149 - MRWK Bibliotheek 2005</label>
+      <value>0149</value>
+      <name>0149 - MRWK Bibliotheek 2005</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>127</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0150 - Geen beachwalk</label>
+      <value>0150</value>
+      <name>0150 - Geen beachwalk</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>128</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0151 - Activismefolder</label>
+      <value>0151</value>
+      <name>0151 - Activismefolder</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>129</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0200 - Onbekend</label>
+      <value>0200</value>
+      <name>0200 - Onbekend</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>130</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0300 - Antilliaanse feesten</label>
+      <value>0300</value>
+      <name>0300 - Antilliaanse feesten</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>131</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0301 - Feest van de Vlaamse gemeente</label>
+      <value>0301</value>
+      <name>0301 - Feest van de Vlaamse gemeente</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>132</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0302 - Cactusfestival</label>
+      <value>0302</value>
+      <name>0302 - Cactusfestival</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>133</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0303 - Rock herk</label>
+      <value>0303</value>
+      <name>0303 - Rock herk</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>134</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0304 - Gentse feesten</label>
+      <value>0304</value>
+      <name>0304 - Gentse feesten</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>135</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0305 - Rithm and blues festival</label>
+      <value>0305</value>
+      <name>0305 - Rithm and blues festival</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>136</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0306 - SFINK festival</label>
+      <value>0306</value>
+      <name>0306 - SFINK festival</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>137</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0307 - Kneistival</label>
+      <value>0307</value>
+      <name>0307 - Kneistival</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>138</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0308 - Mechelen en Buul</label>
+      <value>0308</value>
+      <name>0308 - Mechelen en Buul</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>139</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0309 - Stationsstraat</label>
+      <value>0309</value>
+      <name>0309 - Stationsstraat</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>140</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0310 - De Leien</label>
+      <value>0310</value>
+      <name>0310 - De Leien</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>141</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0311 - Wapper</label>
+      <value>0311</value>
+      <name>0311 - Wapper</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>142</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0312 - Rooseveltplaats</label>
+      <value>0312</value>
+      <name>0312 - Rooseveltplaats</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>143</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0313 - Antilliaanse feesten</label>
+      <value>0313</value>
+      <name>0313 - Antilliaanse feesten</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>144</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0314 - Groenplaats bloemen</label>
+      <value>0314</value>
+      <name>0314 - Groenplaats bloemen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>145</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0316 - Winkelstraat Sint-Truiden</label>
+      <value>0316</value>
+      <name>0316 - Winkelstraat Sint-Truiden</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>146</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0317 - Pukkelpop</label>
+      <value>0317</value>
+      <name>0317 - Pukkelpop</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>147</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0318 - Winkelstraat Ninove</label>
+      <value>0318</value>
+      <name>0318 - Winkelstraat Ninove</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>148</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0319 - Planckendael</label>
+      <value>0319</value>
+      <name>0319 - Planckendael</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>149</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0320 - Makt Otter Gasthuisstraat</label>
+      <value>0320</value>
+      <name>0320 - Makt Otter Gasthuisstraat</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>150</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0321 - Winkelstraat Dendermonde</label>
+      <value>0321</value>
+      <name>0321 - Winkelstraat Dendermonde</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>151</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0322 - Fiesta del Sol</label>
+      <value>0322</value>
+      <name>0322 - Fiesta del Sol</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>152</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0323 - Bruul Mechelen</label>
+      <value>0323</value>
+      <name>0323 - Bruul Mechelen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>153</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0324 - Wapper Antwerpen</label>
+      <value>0324</value>
+      <name>0324 - Wapper Antwerpen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>154</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0325 - Winkelstraat Aalst</label>
+      <value>0325</value>
+      <name>0325 - Winkelstraat Aalst</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>155</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0326 - Groot Kanonplein Gent</label>
+      <value>0326</value>
+      <name>0326 - Groot Kanonplein Gent</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>156</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0327 - Wapper Antwerpen</label>
+      <value>0327</value>
+      <name>0327 - Wapper Antwerpen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>157</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0328 - Winkelstraten Kortrijk</label>
+      <value>0328</value>
+      <name>0328 - Winkelstraten Kortrijk</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>158</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0329 - Groenplaats benefiet</label>
+      <value>0329</value>
+      <name>0329 - Groenplaats benefiet</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>159</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0331 - Open Doek</label>
+      <value>0331</value>
+      <name>0331 - Open Doek</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>160</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0333 - ATT Petitie</label>
+      <value>0333</value>
+      <name>0333 - ATT Petitie</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>161</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0360 - 60 jaar URVM</label>
+      <value>0360</value>
+      <name>0360 - 60 jaar URVM</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>162</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0399 - Project Kobe Brussel</label>
+      <value>0399</value>
+      <name>0399 - Project Kobe Brussel</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>163</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0400 - DDF</label>
+      <value>0400</value>
+      <name>0400 - DDF</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>164</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0401 - Foute 400</label>
+      <value>0401</value>
+      <name>0401 - Foute 400</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>165</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0402 - DDF eenmalige gift</label>
+      <value>0402</value>
+      <name>0402 - DDF eenmalige gift</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>166</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0403 - DDF D2D test najaar 2011</label>
+      <value>0403</value>
+      <name>0403 - DDF D2D test najaar 2011</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>167</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0404 - Straatwerving 2012</label>
+      <value>0404</value>
+      <name>0404 - Straatwerving 2012</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>168</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0405 - Telefoonwerving 2012</label>
+      <value>0405</value>
+      <name>0405 - Telefoonwerving 2012</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>169</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0500 - Face to face AIVL BO's</label>
+      <value>0500</value>
+      <name>0500 - Face to face AIVL BO's</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>170</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0501 - Foute 500</label>
+      <value>0501</value>
+      <name>0501 - Foute 500</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>171</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0503 - DDI eenmalige gift</label>
+      <value>0503</value>
+      <name>0503 - DDI eenmalige gift</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>172</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>0800 - Deelname in portokosten</label>
+      <value>0800</value>
+      <name>0800 - Deelname in portokosten</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>173</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>100 - Via de Boekenbeurs.</label>
+      <value>100</value>
+      <name>100 - Via de Boekenbeurs.</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>175</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>101 - spontaan-onbekend L/D. Alle banken</label>
+      <value>101</value>
+      <name>101 - spontaan-onbekend L/D. Alle banken</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>176</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>108 - Via actie/project.</label>
+      <value>108</value>
+      <name>108 - Via actie/project.</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>177</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>110 - Via Lokale Groep. Alle Banken</label>
+      <value>110</value>
+      <name>110 - Via Lokale Groep. Alle Banken</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>178</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>112 - Via Schrijf-ze-Vrij. Alle Banken</label>
+      <value>112</value>
+      <name>112 - Via Schrijf-ze-Vrij. Alle Banken</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>178</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>113 - Actieve medewerker. Alle banken</label>
+      <value>113</value>
+      <name>113 - Actieve medewerker. Alle banken</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>179</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>116 - Via telefoonaanvraag. Banken 1, 2 of 4</label>
+      <value>116</value>
+      <name>116 - Via telefoonaanvraag. Banken 1, 2 of 4</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>180</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1171 - Private giften aan Amnesty</label>
+      <value>1171</value>
+      <name>1171 - Private giften aan Amnesty</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>194</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>119 - Via e-mail.</label>
+      <value>119</value>
+      <name>119 - Via e-mail.</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>181</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1212 - Recru giften geen code</label>
+      <value>1212</value>
+      <name>1212 - Recru giften geen code</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>192</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1213 - Testmailing Turkije</label>
+      <value>1213</value>
+      <name>1213 - Testmailing Turkije</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>190</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1214 - Testmailing Kenya</label>
+      <value>1214</value>
+      <name>1214 - Testmailing Kenya</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>189</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1215 - Kerk en leven RECR-DSC</label>
+      <value>1215</value>
+      <name>1215 - Kerk en leven RECR-DSC</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>193</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1216 - Best of DSC recrumail</label>
+      <value>1216</value>
+      <name>1216 - Best of DSC recrumail</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>191</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1217 - 1991-1998 Don of ex-lid</label>
+      <value>1217</value>
+      <name>1217 - 1991-1998 Don of ex-lid</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>195</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1218 - Second best DSC rekru mail</label>
+      <value>1218</value>
+      <name>1218 - Second best DSC rekru mail</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>196</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1219 - Kindsoldaten De Bond</label>
+      <value>1219</value>
+      <name>1219 - Kindsoldaten De Bond</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>197</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>122 - Via www.aivl.be</label>
+      <value>122</value>
+      <name>122 - Via www.aivl.be</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>182</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1220 - Kindsoldaten BO</label>
+      <value>1220</value>
+      <name>1220 - Kindsoldaten BO</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>198</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1221 - Kindsoldaten testmail</label>
+      <value>1221</value>
+      <name>1221 - Kindsoldaten testmail</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>199</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1222 - Kindsoldaten</label>
+      <value>1222</value>
+      <name>1222 - Kindsoldaten</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>200</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1223 - Eindejaarsmail opa's</label>
+      <value>1223</value>
+      <name>1223 - Eindejaarsmail opa's</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>201</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1224 - DSC actieven NL</label>
+      <value>1224</value>
+      <name>1224 - DSC actieven NL</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>202</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1225 - De Standaard</label>
+      <value>1225</value>
+      <name>1225 - De Standaard</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>203</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1226 - Sophie don humanitair</label>
+      <value>1226</value>
+      <name>1226 - Sophie don humanitair</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>204</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1227 - Verzamelcode voor ongecodeerde stortingen</label>
+      <value>1227</value>
+      <name>1227 - Verzamelcode voor ongecodeerde stortingen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>205</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1228 - Kerk en Leven 18-06-2003</label>
+      <value>1228</value>
+      <name>1228 - Kerk en Leven 18-06-2003</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>206</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1229 - Kerk en Leven deel 2</label>
+      <value>1229</value>
+      <name>1229 - Kerk en Leven deel 2</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>207</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>123 - Persoonlijk contact. Alle banken</label>
+      <value>123</value>
+      <name>123 - Persoonlijk contact. Alle banken</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>183</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1230 - Kerk en Leven deel 3</label>
+      <value>1230</value>
+      <name>1230 - Kerk en Leven deel 3</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>208</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1231 - Kerk en Leven deel 4</label>
+      <value>1231</value>
+      <name>1231 - Kerk en Leven deel 4</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>209</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1232 - 2004 Ongecodeerde recru</label>
+      <value>1232</value>
+      <name>1232 - 2004 Ongecodeerde recru</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>210</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1233 - 2004 insert Kerk en Leven</label>
+      <value>1233</value>
+      <name>1233 - 2004 insert Kerk en Leven</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>211</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1234 - 2004 Dec Bus-a-Bus Hasselt</label>
+      <value>1234</value>
+      <name>1234 - 2004 Dec Bus-a-Bus Hasselt</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>212</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1235 - 2004 Dec Bus-a-Bus Temse</label>
+      <value>1235</value>
+      <name>1235 - 2004 Dec Bus-a-Bus Temse</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>213</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1236 - 2004 Dec Bus-a-Bus Landen</label>
+      <value>1236</value>
+      <name>1236 - 2004 Dec Bus-a-Bus Landen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>214</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1237 - 2004 Dec Bus-a-Bus Begijnendijk</label>
+      <value>1237</value>
+      <name>1237 - 2004 Dec Bus-a-Bus Begijnendijk</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>215</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1238 - 2004 Dec Bus-a-Bus Melse</label>
+      <value>1238</value>
+      <name>1238 - 2004 Dec Bus-a-Bus Melse</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>216</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1239 - 2004 Dec Bus-a-Bus Brasschaat</label>
+      <value>1239</value>
+      <name>1239 - 2004 Dec Bus-a-Bus Brasschaat</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>217</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1240 - 2004 Dec Bus-a-Bus Antwerpen</label>
+      <value>1240</value>
+      <name>1240 - 2004 Dec Bus-a-Bus Antwerpen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>218</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1241 - 2004 Dec Bus-a-Bus Heverlee Ter Bank</label>
+      <value>1241</value>
+      <name>1241 - 2004 Dec Bus-a-Bus Heverlee Ter Bank</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>219</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1242 - 2004 Dec Bus-a-Bus Heverlee</label>
+      <value>1242</value>
+      <name>1242 - 2004 Dec Bus-a-Bus Heverlee</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>220</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1243 - 2004 Dec Bus-a-Bus Leuven</label>
+      <value>1243</value>
+      <name>1243 - 2004 Dec Bus-a-Bus Leuven</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>221</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1244 - 2004 Dec Bus-a-Bus Zuiderkempen</label>
+      <value>1244</value>
+      <name>1244 - 2004 Dec Bus-a-Bus Zuiderkempen</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>222</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1248 - 2005 Dec Advocaat</label>
+      <value>1248</value>
+      <name>1248 - 2005 Dec Advocaat</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>223</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>125 - Via lezing.</label>
+      <value>125</value>
+      <name>125 - Via lezing.</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>184</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1251 - 2006 NOV MR week</label>
+      <value>1251</value>
+      <name>1251 - 2006 NOV MR week</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>224</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1253 - 2007 OKT postbestand</label>
+      <value>1253</value>
+      <name>1253 - 2007 OKT postbestand</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>225</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1255 - 2007 DEC I</label>
+      <value>1255</value>
+      <name>1255 - 2007 DEC I</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>226</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1256 - 2007 DEC II</label>
+      <value>1256</value>
+      <name>1256 - 2007 DEC II</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>227</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1258 - 2008 URVM Campagne</label>
+      <value>1258</value>
+      <name>1258 - 2008 URVM Campagne</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>228</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1259 - 31 MO 04 Advertentie</label>
+      <value>1259</value>
+      <name>1259 - 31 MO 04 Advertentie</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>229</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1260 - Aankoop via AINL</label>
+      <value>1260</value>
+      <name>1260 - Aankoop via AINL</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>230</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1261 - 31.2009 06 MO versie 1</label>
+      <value>1261</value>
+      <name>1261 - 31.2009 06 MO versie 1</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>231</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1262 - 31.2009 06 MO versie 2</label>
+      <value>1262</value>
+      <name>1262 - 31.2009 06 MO versie 2</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>232</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1263 - 2011 DEC Selectpost</label>
+      <value>1263</value>
+      <name>1263 - 2011 DEC Selectpost</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>233</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1264 - 2011 12 WDM MyLifestyle</label>
+      <value>1264</value>
+      <name>1264 - 2011 12 WDM MyLifestyle</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>234</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1267</label>
+      <value>1267</value>
+      <name>1267</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>235</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1268</label>
+      <value>1268</value>
+      <name>1268</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>236</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1268 - 2012 Telebelofte</label>
+      <value>1268</value>
+      <name>1268 - 2012 Telebelofte</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>237</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>146 - On line Donatie &quot;Ik wil Helpen&quot;</label>
+      <value>146</value>
+      <name>146 - On line Donatie &quot;Ik wil Helpen&quot;</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>185</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>1900 - Extra gift op lidgeld</label>
+      <value>1900</value>
+      <name>1900 - Extra gift op lidgeld</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>238</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>404 - 2012 ev.Straatwerving</label>
+      <value>404</value>
+      <name>404 - 2012 ev.Straatwerving</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>187</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>405 - 2012ev.Telefoonwerving.</label>
+      <value>405</value>
+      <name>405 - 2012ev.Telefoonwerving.</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>186</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>406-2012 Boekenbeurs</label>
+      <value>406</value>
+      <name>406-2012 Boekenbeurs</name>
+      <filter>0</filter>
+      <is_default>0</is_default>
+      <weight>188</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>98 - Intern Gebruik.</label>
+      <value>98</value>
+      <name>98_Intern_Gebruik_</name>
+      <is_default>0</is_default>
+      <weight>174</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>recruitment_20140307095917</option_group_name>
+    </OptionValue>
+  </OptionValues>
+</CustomData>
