@@ -34,6 +34,13 @@ class CRM_Recruitment_Upgrader extends CRM_Recruitment_Upgrader_Base {
    *
   public function disable() {
     CRM_Core_DAO::executeQuery('UPDATE foo SET is_active = 0 WHERE bar = "whiz"');
+  }*/
+  
+  public function upgrade_1001() {
+    $this->ctx->log->info('Applying update 1001');
+    // this path is relative to the extension base dir
+    $this->executeSqlFile('sql/upgrade_1001.sql');
+    return TRUE;
   }
 
   /**
