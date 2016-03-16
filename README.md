@@ -1,4 +1,4 @@
 be.aivl.recruitment
 ===================
 
-Extensie voor custom veld: dropdown met recruitment opties.
+Custom Group Recruitment (with one field) is placed on CiviCRM contact summary.
