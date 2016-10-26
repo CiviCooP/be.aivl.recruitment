@@ -254,22 +254,5 @@ function recruitment_import()
   return true;
 }
 
-function recruitment_civicrm_summary( $contactID, &$content, &$contentPlacement = CRM_Utils_Hook::SUMMARY_BELOW )
-{
-  $params = array(
-    'version' => 3,
-    'q' => 'civicrm/ajax/rest',
-    'sequential' => 1,
-    'name' => 'Recruitment',
-  );
-  $result = civicrm_api('CustomGroup', 'get', $params);
-  
-  $content .= '<script type="text/javascript">' . PHP_EOL;
-  $content .= 'cj( document ).ready(function() {' . PHP_EOL;
-  $content .= 'var parent_el_contact_id_ = cj("#contact-summary .crm-summary-block .crm-contact-contact_id").parent().parent();' . PHP_EOL;
-  $content .= 'cj("#customFields .crm-custom-set-block-' . $result['values'][0]['id'] . ' .crm-summary-block").addClass("crm-summary-row");' . PHP_EOL;
-  $content .= 'cj("#customFields .crm-custom-set-block-' . $result['values'][0]['id'] . ' .crm-summary-block").insertAfter(parent_el_contact_id_);' . PHP_EOL;
-  $content .= 'cj("#customFields .crm-custom-set-block-' . $result['values'][0]['id'] . '").hide();' . PHP_EOL;
-  $content .= '});' . PHP_EOL;
-  $content .= '</script>' . PHP_EOL;
+function recruitment_civicrm_summary( $contactID, &$content, &$contentPlacement = CRM_Utils_Hook::SUMMARY_BELOW ) {
 }
