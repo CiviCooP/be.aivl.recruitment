@@ -11,6 +11,7 @@ class CRM_Recruitment_Recruitment {
   protected $_historicActivityTypeId = NULL;
   protected $_historicCampaignId = NULL;
   protected $_historicCampaignTypeId = NULL;
+  protected $_sourceContactId = NULL;
 
   /**
    * CRM_Recruitment_Recruitment constructor.
@@ -19,6 +20,46 @@ class CRM_Recruitment_Recruitment {
     $this->setActivityTypeIds();
     $this->setCampaignTypeIds();
     $this->setCampaignIds();
+    $this->setSourceContactId();
+  }
+
+  /**
+   * Method to retrieve the source contact id. Should be Amnesty International Vlaanderen but also has some escape routes
+   */
+  private function setSourceContactId() {
+    // find contact with legal name Amnesty International Vlaanderen VZW
+    try {
+      $this->_sourceContactId = civicrm_api3('Contact', 'getvalue', array(
+        'legal_name' => 'Amnesty International Vlaanderen VZW',
+        'return' => 'id'
+      ));
+
+    // if that fails select the first Amnesty International Vlaanderen in Belgium that can be found
+    } catch (CiviCRM_API3_Exception $ex) {
+      $amnesties = civicrm_api3('Contact', 'get', array(
+        'organization_name' => array('LIKE' => "%Amnesty International Vlaanderen%"),
+        'country_id' => 1020,
+        'options' => array('limit' => 1)
+      ));
+      // if that fails try with just Amnesty International in Belgium
+      if ($amnesties['count'] == 0) {
+        $amnesties = civicrm_api3('Contact', 'get', array(
+          'organization_name' => array('LIKE' => "%Amnesty International%"),
+          'country_id' => 1020,
+          'options' => array('limit' => 1)
+        ));
+        foreach ($amnesties['values'] as $amnestyId => $amnesty) {
+          $this->_sourceContactId = $amnestyId;
+        }
+      }
+      foreach ($amnesties['values'] as $amnestyId => $amnesty) {
+        $this->_sourceContactId = $amnestyId;
+      }
+    }
+    // if all failed, use 1
+    if (empty($this->_sourceContactId)) {
+      $this->_sourceContactId = 1;
+    }
   }
 
   /**
@@ -57,6 +98,7 @@ class CRM_Recruitment_Recruitment {
    * @throws Exception
    */
   private function setCampaignIds() {
+
     try {
       $this->_historicCampaignId = civicrm_api3('Campaign', 'getvalue', array(
         'name' => 'prehistoric_campaign',
@@ -205,7 +247,7 @@ class CRM_Recruitment_Recruitment {
       'activity_type_id' => $this->_historicActivityTypeId,
       'campaign_id' => $campaignId,
       'target_contact_id' => $recruitment->contact_id,
-      'source_contact_id' => 1,
+      'source_contact_id' => $this->_sourceContactId,
       'activity_date_time' => date('Y-m-d', strtotime($recruitment->action_date)),
       'subject' => $activitySubject
     );
