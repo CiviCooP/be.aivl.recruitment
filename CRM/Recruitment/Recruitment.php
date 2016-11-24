@@ -231,16 +231,16 @@ class CRM_Recruitment_Recruitment {
     }
     switch ($recruitment->type) {
       case 'D':
-        $activitySubject = 'Historische Rekrutering Donatie';
+        $activitySubject = 'Hist. Rekr. Donatie';
         break;
       case 'L':
-        $activitySubject = 'Historische Rekrutering Lidmaatschap';
+        $activitySubject = 'Hist. Rekr. Lidmaatschap';
         break;
       case 'S':
-        $activitySubject = 'Historische Rekrutering Sympathisant';
+        $activitySubject = 'Hist. Rekr. Sympathisant';
         break;
       default:
-        $activitySubject = 'Historische Rekrutering (onbekend type)';
+        $activitySubject = 'Hist. Rekr. (onbekend type)';
         break;
     }
     $params = array(

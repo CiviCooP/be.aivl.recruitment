@@ -22,7 +22,8 @@
 function civicrm_api3_recruitment_Migrate($params) {
   $count = 0;
   $previousContactId = 0;
-  $query = 'SELECT * FROM aivl_hist_action WHERE processed = 0 ORDER BY ai_id, action_date LIMIT 1500';
+  $query = 'SELECT  * FROM aivl_hist_action WHERE processed = 0 GROUP BY ai_id HAVING MIN(action_date) 
+    ORDER BY ai_id, action_date LIMIT 1000';
   $dao = CRM_Core_DAO::executeQuery($query, array(1 => array(0, 'Integer')));
   $recruitment = new CRM_Recruitment_Recruitment();
   while ($dao->fetch()) {
